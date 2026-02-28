@@ -3,9 +3,9 @@ import java.util.Objects;
 public class Person {
     private String name;
     private String surname;
-    private Gender.gender gender;
+    private gender gender;
 
-    public Person(String name, String surname, Gender.gender gender) {
+    public Person(String name, String surname, gender gender) {
         this.name = name;
         this.surname = surname;
         this.gender = gender;

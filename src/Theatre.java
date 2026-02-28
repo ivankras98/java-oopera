@@ -1,17 +1,17 @@
 public class Theatre {
     public static void main(String[] args) {
 
-        Director director1 = new Director("Лев", "Польский", Gender.gender.MALE, 12);
-        Director director2 = new Director("Иван", "Краснов", Gender.gender.MALE, 34);
+        Director director1 = new Director("Лев", "Польский", gender.MALE, 12);
+        Director director2 = new Director("Иван", "Краснов", gender.MALE, 34);
 
 
-        Person musicAuthor = new Person("Ирина", "Колокольцева", Gender.gender.FEMALE);
-        Person choreographer = new Person("Светлана", "Камынина", Gender.gender.FEMALE);
+        Person musicAuthor = new Person("Ирина", "Колокольцева", gender.FEMALE);
+        Person choreographer = new Person("Светлана", "Камынина", gender.FEMALE);
 
 
-        Actor actor1 = new Actor("Сергей", "Петров", Gender.gender.MALE, 186);
-        Actor actor2 = new Actor("Фёдор", "Ухов", Gender.gender.MALE, 165);
-        Actor actor3 = new Actor("Мария", "Катушкина", Gender.gender.FEMALE, 157);
+        Actor actor1 = new Actor("Сергей", "Петров", gender.MALE, 186);
+        Actor actor2 = new Actor("Фёдор", "Ухов", gender.MALE, 165);
+        Actor actor3 = new Actor("Мария", "Катушкина", gender.FEMALE, 157);
 
 
         Show show = new Show("Обычный спектакль", 132, director1);
